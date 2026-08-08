@@ -1,5 +1,11 @@
+import Background from '../background/background';
+
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      <Background />
+    </>
+  );
 }
 
 export default App;
