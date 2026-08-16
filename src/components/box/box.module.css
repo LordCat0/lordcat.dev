@@ -1,0 +1,8 @@
+.box {
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(150, 200, 255, 0.45);
+
+  z-index: 4;
+  padding: 0.5rem;
+  border-radius: 7px;
+}

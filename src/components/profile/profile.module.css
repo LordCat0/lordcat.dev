@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.profile > img {
+  border-radius: 50%;
+}
+
+.profile > span {
+  margin-left: 1rem;
+  font-size: xx-large;
+  font-family: DynaPuff;
+}

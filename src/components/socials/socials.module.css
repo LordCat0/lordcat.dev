@@ -1,0 +1,33 @@
+.socials {
+  margin: 0.75rem;
+}
+
+.socials > span {
+  font-family: DynaPuff;
+  font-size: x-large;
+}
+
+.socials > ul {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.socialItem:hover {
+  text-decoration: underline;
+}
+
+.socialItem > img {
+  filter: invert(1);
+}
+
+.socialItem > span {
+  margin-left: 0.5rem;
+}
