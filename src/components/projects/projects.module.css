@@ -1,0 +1,71 @@
+.projects {
+  flex-grow: 1;
+  font-family: DynaPuff;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects > h1 {
+  font-family: DynaPuff;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+.title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.title > span {
+  margin-left: 0.5rem;
+  font-size: small;
+  opacity: 0.75;
+}
+
+.projectLink {
+  display: flex;
+  align-items: center;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
+.projectLink > h2 {
+  display: inline;
+  margin-left: 0.5rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.projectItem {
+  padding: 0.5rem 1rem;
+  width: 25rem;
+}
+
+.projectItem a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.projectItem a:hover {
+  text-decoration: underline;
+}
+
+.projectItem > span {
+  margin: 0.5rems;
+}
+
+.links > span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.links > span > :global(.lucide) {
+  margin-right: 0.5rem;
+}
